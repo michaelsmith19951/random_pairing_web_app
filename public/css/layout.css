@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-image: url("/images/background.jpg");
+	background-color: white;
 	color: #111642; /* Dark Blue*/
 	background-size: cover;
 	font-weight: bold;
@@ -27,11 +27,13 @@ body {
 		transform: translate(4px);
 	}
 .box_div {
+	font-size: 18px;
 	text-align: center;
 	align-items: center;
 	background-color: lightgrey;
-	width: 300px;
+	width: 990px;
 	border: 25px solid red;
-	padding: 25px;
+	padding: 120px;
 	margin: 25px;
+	height: 400px;
 }
