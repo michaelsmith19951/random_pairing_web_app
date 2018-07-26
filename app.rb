@@ -7,3 +7,12 @@ end
 post '/random_pairs_page1' do
 
 end
+get '/random_pairs_final_page' do
+	erb :random_pairs_final_page
+end
+post '/random_pairs_final_page' do
+
+end
+post '/restart_app' do
+	redirect '/random_pairs_page1'
+end
