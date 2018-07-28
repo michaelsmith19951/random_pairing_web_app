@@ -2,9 +2,12 @@
 function addBoxes() {
     var x = document.createElement("INPUT");
     x.setAttribute("type", "text");
-    x.setAttribute("value", "Insert Name");
-    document.body.appendChild(x);
+    x.setAttribute("name", "addedName[]");
+    x.setAttribute("placeholder", "");
+    var nameMe = document.getElementById("nameMe");
+    nameMe.appendChild(x);
 }
-function deleteBoxes(boxes) {
-    document.getElementById("addBoxes").removeChild(boxes.parentNode);
+function deleteBoxes() {
+    var boxesThatIwantDeleted = document.getElementById("nameMe");
+    boxesThatIwantDeleted.removeChild(boxesThatIwantDeleted.lastChild);
 }
