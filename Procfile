@@ -1,1 +1,1 @@
-web: bundle exec ruby random_pairing_functions.rb
+web: bundle exec ruby app.rb
